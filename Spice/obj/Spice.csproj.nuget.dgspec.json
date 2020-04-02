@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bmahoney\\source\\repos\\Spice\\Spice\\Spice.csproj": {}
+    "C:\\Users\\17033\\source\\repos\\Spice\\Spice\\Spice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bmahoney\\source\\repos\\Spice\\Spice\\Spice.csproj": {
+    "C:\\Users\\17033\\source\\repos\\Spice\\Spice\\Spice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bmahoney\\source\\repos\\Spice\\Spice\\Spice.csproj",
+        "projectUniqueName": "C:\\Users\\17033\\source\\repos\\Spice\\Spice\\Spice.csproj",
         "projectName": "Spice",
-        "projectPath": "C:\\Users\\bmahoney\\source\\repos\\Spice\\Spice\\Spice.csproj",
-        "packagesPath": "C:\\Users\\bmahoney\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bmahoney\\source\\repos\\Spice\\Spice\\obj\\",
+        "projectPath": "C:\\Users\\17033\\source\\repos\\Spice\\Spice\\Spice.csproj",
+        "packagesPath": "C:\\Users\\17033\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\17033\\source\\repos\\Spice\\Spice\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\bmahoney\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\17033\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +25,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "\\\\10.10.150.22\\NugatePackage\\SMMS\\Build\\Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,7 +43,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[5.0.0-preview.1.20124.5, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -60,6 +62,8 @@
               "version": "[3.1.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.1, )"
             },
@@ -86,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
